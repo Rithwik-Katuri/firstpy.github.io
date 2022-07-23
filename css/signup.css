@@ -1,0 +1,385 @@
+/* ====== */
+/*	Home Page Style */
+/* ====== */
+
+
+body {
+color:#fff;
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+font-family: sans-serif;
+background-color: #585858;
+}
+
+
+
+
+/*************************
+*******Navigation******
+**************************/
+
+
+
+#navigation{
+	background-color : rgba(0,0,0,0.5);
+	margin:0;
+width:100%;
+}
+
+
+#navigation,
+.navbar-brand,
+.navbar-toggle,
+.navbar-nav > li > a{
+
+  -webkit-transition: all 0.6s ease;
+
+     -moz-transition: all 0.6s ease;
+
+      -ms-transition: all 0.6s ease;
+
+       -o-transition: all 0.6s ease;
+
+          transition: all 0.6s ease;
+
+}
+
+
+
+#navigation li{
+  
+padding:0;
+}
+
+
+
+#navigation > .container {
+  
+border-bottom: 1px solid #636364;
+
+}
+
+
+
+#navigation > .container {
+  border-bottom: none;
+}
+
+
+
+.navbar-brand {
+  height: inherit;
+  padding:4vh 0;
+}
+
+
+
+#navigation a {
+
+  display: block;
+
+  padding: 30px 15px;
+
+
+}
+
+
+
+#navigation .navbar-nav > li > a {
+
+
+  color: rgb(255,215,0);
+  font-size: 15px;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+
+}
+
+#navigation .navbar-nav > li:hover> a,#navigation .navbar-nav > li > a {
+
+  background-color: transparent;
+}
+
+
+#navigation .navbar-nav > li:hover> a{
+background-color: rgba(255,255,0,0.25);
+color: yellow;
+}
+
+#navigation span{
+background-color: white;
+}
+
+
+
+#navigation .dropdown span{
+background: transparent;
+}
+
+.dropdown-menu{
+background: rgba(0,0,0,0.5);
+margin:0;
+padding:15px;
+}
+
+#login{
+text-align:center;
+}
+
+#login input[type=email], #login input[type=password], #login button{
+margin: 10px;
+}
+
+#login button{
+padding: 5px 20px;
+}
+
+#login .login-big-icon, #login .login-join{
+font-size: 25px;
+}
+
+#login .login-big-icon{
+padding: 0 10px 10px;
+}
+
+#login a{
+padding:0;
+text-decoration:none;
+color:rgb(255,210,0);
+}
+
+
+#login a:hover{
+text-decoration:underline;
+color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+input, textarea, button, select{
+background : transparent;
+border-radius:0;
+border-color:#fff;
+
+color:#fff;
+
+
+}
+
+input::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+input:-moz-placeholder { 
+   color: #ffffff;  
+}
+input::-moz-placeholder { 
+   color: #ffffff;  
+}
+
+
+input:-ms-input-placeholder{
+	color:#ffffff;
+}
+
+
+textarea::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+textarea:-moz-placeholder { 
+   color: #ffffff;  
+}
+textarea::-moz-placeholder { 
+   color: #ffffff;  
+}
+
+
+textarea:-ms-input-placeholder{
+	color:#ffffff;
+}
+
+input, textarea, button , select{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input:focus, textarea:focus, button:focus, select:focus{
+  box-shadow: 3px 2px 5px rgba(255,220,0, 1);
+  border: 1px solid rgba(255,220,0, 1);
+}
+
+
+
+
+
+
+.item{
+background-size:100% 100%;
+height: 100%;
+width:100%;
+left:0;
+right:0;
+}
+
+#signup{
+margin-top: 100px;
+}
+
+
+#signup h1{
+font-size: 50px;
+}
+
+
+
+
+
+
+
+#form .form_element{
+
+margin: 20px;
+
+}
+
+#form .fname, #form .lname, #form .email, #form .password, #form .mobnumber{
+font-size: 15px;
+height:30px;
+width : 100%;
+}
+
+#form option{
+background-color: rgba(0,0,0,1);
+height:30px;
+}
+
+#form .buttonstyle{
+font-size: 20px;
+}
+
+#form button{
+height : 70px;
+width: 100%;
+}
+
+#form a{
+text-decoration : none;
+color: rgb(255,210,0);
+}
+
+#form button:hover{
+background-color: white;
+color : #505050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*||||||||||||||||||||||||||||||||| COPY RIGHTS ||||||||||||||||||||||||||||||*/
+
+ .coverup{
+width:100%;
+margin:0;
+background-color:#585858;
+}
+
+ .copyrightswrapper{
+ width : 60vw;
+ height:5.5vh;
+ background-color:#585858;
+ color:#f2f2f2;
+ font-family:oswald-bold,sans-serif;
+ font-size:2vh;
+ line-height:3vh;
+ text-align:center;
+ overflow:hidden;
+}
+ 
+  #copyrights a{
+text-decoration:none;
+color:#a3c9e7;
+}
+  #copyrights p{
+ animation: shake 5s infinite;
+ -webkit-animation:shake 5s infinite;
+}
+  #copyrights a:hover{
+text-decoration: underline;
+}
+
+ /*||||||||||||||||||||||||||||||||| ANIMATIONS ||||||||||||||||||||||||||||||*/
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-1vh);
+    transform: translateX(-1vh);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(1vh);
+    transform: translateX(1vh);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-1vh);
+    -ms-transform: translateX(-1vh);
+    transform: translateX(-1vh);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(1vh);
+    -ms-transform: translateX(1vh);
+    transform: translateX(1vh);
+  }
+}
